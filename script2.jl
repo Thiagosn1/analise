@@ -1,4 +1,4 @@
-using JSON, DataFrames, Dates, PrettyTables, Plots
+using JSON, DataFrames, Dates, PrettyTables
 
 dados_brutos = JSON.parsefile("filmes.json")
 
